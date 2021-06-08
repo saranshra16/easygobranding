@@ -1,11 +1,3 @@
-/* Template Name: Qexal - Responsive Bootstrap 4 Landing Page Template
-   Author: Themesbrand
-   Version: 1.0.0
-   Created: Jan 2019
-   File Description: Main js file
-*/
-
-
 
 //  Window scroll sticky class add
 function windowScroll() {
@@ -25,11 +17,6 @@ window.addEventListener('scroll', (ev) => {
     windowScroll();
 })
 
-
-// Smooth scroll 
-var scroll = new SmoothScroll('#navbar-navlist a', {
-    speed: 500
-});
 
 
 // Contact Form
@@ -90,17 +77,12 @@ function fadeIn() {
     }, 200);
 }
 
-// feather icon
-
-feather.replace();
-
 
 // Preloader
 
-window.onload = function loader() { 
+window.onload = function loader() {
     setTimeout(() => {
         document.getElementById('preloader').style.visibility = 'hidden';
         document.getElementById('preloader').style.opacity = '0';
     }, 350);
-} 
-
+}
