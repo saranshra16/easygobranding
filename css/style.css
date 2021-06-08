@@ -268,13 +268,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-sticky.navbar .navbar-nav li .nav-link.active, .nav-sticky.navbar .navbar-nav li .nav-link:hover, .nav-sticky.navbar .navbar-nav li .nav-link:focus {
-  color: #2753ff !important;
+  color: #63caa4 !important;
 }
 
-.nav-sticky.navbar .nav-btn {
-  background-color: #2753ff;
-  color: #fff;
-}
 
 .nav-sticky .logo .logo-dark {
   display: inline-block !important;
@@ -311,11 +307,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-light .navbar-nav li .nav-link.active, .navbar-light .navbar-nav li .nav-link:hover, .navbar-light .navbar-nav li .nav-link:focus {
-  color: #2753ff !important;
+  color: #63caa4 !important;
 }
 
 .navbar-light .nav-btn {
-  background-color: #2753ff;
+  background-color: #63caa4;
   color: #fff;
 }
 
@@ -404,16 +400,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn.btn-primary {
-  background-color: #2753ff !important;
-  border: 1px solid #2753ff !important;
+  background-color: #63caa4 !important;
+  border: 1px solid #63caa4 !important;
   color: #fff;
   box-shadow: 0 4px 20px rgba(39, 83, 255, 0.15);
 }
 
 .btn.btn-primary:hover, .btn.btn-primary:focus, .btn.btn-primary.focus, .btn.btn-primary:active, .btn.btn-primary.active {
-  background-color: #1847ff !important;
-  border: 1px solid #1847ff !important;
-  box-shadow: 0 3px 10px rgba(39, 83, 255, 0.5);
+  background-color: #61b798 !important;
+  border: 1px solid #61b798 !important;
   color: #fff !important;
 }
 
@@ -1148,8 +1143,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 130px;
+  padding-bottom: 120px;
   position: relative;
 }
 
@@ -1457,12 +1452,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-2 .custom-search .btn {
-  position: absolute;
-  right: 4px;
-  top: 50%;
-  padding: 8px !important;
-  transform: translateY(-50%);
-  z-index: 4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.custom-search > .btn:hover {
+  background-color: transparent !important;
+  border: 1px solid #2753ff !important;
 }
 
 .hero-3 {

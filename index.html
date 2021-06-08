@@ -13,7 +13,7 @@
 
     <!-- css -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="css/style.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -33,7 +33,7 @@
         <div class="container">
             <!-- LOGO -->
             <a class="navbar-brand logo" href="index-1.html">
-                <img src="images/EasyGoBranding.png" alt="" class="logo-dark d-none" height="80px" />
+                <img src="images/EasyGoBranding.png" alt="" class="logo-dark" height="80px" />
                 <!--<h1 class="fw-bold">EasyGo Branding</h1>-->
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
@@ -55,7 +55,7 @@
                         <a href="#contact" class="nav-link">Contact Us</a>
                     </li>
                 </ul>
-                <a href="" class="btn btn-sm rounded-pill nav-btn ms-lg-3">Pricing</a>
+                <a href="undermaintainence.html" class="btn btn-sm rounded-pill nav-btn ms-lg-3">Pricing</a>
             </div>
         </div>
         <!-- end container -->
@@ -72,14 +72,15 @@
                     <h1 class="font-weight-semibold mb-4 hero-2-title">We help transform your PRODUCT to BRAND<br>The Easy Way</h1>
                     <p class="mb-5 text-muted">We help you make your online presence stronger by effective content that’s actually consumed by your target audience.</p>
                     <div class="custom-search">
-                        <div class="input-group mb-lg-0 mb-4">
-                            <input type="text" class="form-control rounded-pill" placeholder="Write us to know how?"
-                                aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <a class="input-group mb-lg-0 mb-4 btn btn-outline-dark rounded-pill py-2" href="#contact">
+                            <span class="text-dark">Write us to know how?</span>
                             <div class="input-group-append">
-                                <button class="btn btn-sm btn-primary rounded-pill px-2" type="button"
-                                    id="button-addon2"><i class="" data-feather="chevron-right"></i></button>
+                                <button class="btn btn-sm btn-primary rounded-pill" type="button"
+                                    id="button-addon2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                                </button>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-sm-10 mx-auto ms-lg-auto me-lg-0">
@@ -203,7 +204,7 @@
                     <h2 class="mb-4">Perfect Solution For Small Businesses</h2>
                     <p class="text-muted mb-5">We can help you grow your business with our result oriented solutions
                         that won't break your budget.</p>
-                    <a href="javascript: void(0);" class="btn btn-primary">Find out more <i class="icon-xs ms-2"
+                    <a href="javascript: void(0);" class="btn btn-primary d-none">Find out more <i class="icon-xs ms-2"
                             data-feather="arrow-right"></i></a>
                 </div>
                 <div class="col-md-6 ms-md-auto order-1 order-md-2">
@@ -228,7 +229,7 @@
                 <div class="col-md-5 ms-md-auto">
                     <h2 class="mb-4">Solutions As Per Business Need</h2>
                     <p class="text-muted mb-5">Our subject matter experts will guide you to understand what is best for your business and hence, provide custom tailored solutions as per your business need. </p>
-                    <a href="javascript: void(0);" class="btn btn-primary">Find out more <i class="icon-xs ms-2"
+                    <a href="javascript: void(0);" class="btn btn-primary d-none">Find out more <i class="icon-xs ms-2"
                             data-feather="arrow-right"></i></a>
                 </div>
             </div>
@@ -241,7 +242,7 @@
 
 
 <!-- Clients Speak -->
-<section class="section bg-center w-100 bg-light" id="team" style="background-image: url(images/cta-bg.png);">
+<section class="section d-none bg-center w-100 bg-light" id="team" style="background-image: url(images/cta-bg.png);">
     <div class="container">
         <div class="row justify-content-center mb-4">
             <div class="col-lg-7 text-center">
