@@ -13,11 +13,10 @@
 
     <!-- css -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
-    <link href="css/style.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body data-spy="scroll" data-target="#navbar" data-offset="20">
+<body>
     <!-- Loader -->
     <div id="preloader">
         <div id="status">
@@ -34,7 +33,7 @@
         <div class="container">
             <!-- LOGO -->
             <a class="navbar-brand logo" href="index-1.html">
-                <img src="images/EasyGoBranding.png" alt="" class="logo-dark d-none" height="80px" />  
+                <img src="images/EasyGoBranding.png" alt="" class="logo-dark" height="80px" />
                 <!--<h1 class="fw-bold">EasyGo Branding</h1>-->
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
@@ -52,14 +51,11 @@
                     <li class="nav-item">
                         <a href="#features" class="nav-link">Our Features</a>
                     </li>
-                   <!-- <li class="nav-item">
-                        <a href="#blog" class="nav-link">Blog</a>
-                    </li>-->
                     <li class="nav-item">
                         <a href="#contact" class="nav-link">Contact Us</a>
                     </li>
                 </ul>
-                <a href="" class="btn btn-sm rounded-pill nav-btn ms-lg-3">Buy Now</a>
+                <a href="undermaintainence.html" class="btn btn-sm rounded-pill nav-btn ms-lg-3">Pricing</a>
             </div>
         </div>
         <!-- end container -->
@@ -76,14 +72,15 @@
                     <h1 class="font-weight-semibold mb-4 hero-2-title">We help transform your PRODUCT to BRAND<br>The Easy Way</h1>
                     <p class="mb-5 text-muted">We help you make your online presence stronger by effective content that’s actually consumed by your target audience.</p>
                     <div class="custom-search">
-                        <div class="input-group mb-lg-0 mb-4">
-                            <input type="text" class="form-control rounded-pill" placeholder="Write us to know how?"
-                                aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <a class="input-group mb-lg-0 mb-4 btn btn-outline-dark rounded-pill py-2" href="#contact">
+                            <span class="text-dark">Write us to know how?</span>
                             <div class="input-group-append">
-                                <button class="btn btn-sm btn-primary rounded-pill px-2" type="button"
-                                    id="button-addon2"><i class="" data-feather="chevron-right"></i></button>
+                                <button class="btn btn-sm btn-primary rounded-pill" type="button"
+                                    id="button-addon2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                                </button>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-sm-10 mx-auto ms-lg-auto me-lg-0">
@@ -111,7 +108,7 @@
                     <div class="service-box text-center px-4 py-5 position-relative mb-4">
                         <div class="service-box-content p-4">
                             <div class="icon-mono service-icon avatar-md mx-auto mb-4">
-                                <i class="" data-feather="box"></i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-box"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
                             </div>
                             <h4 class="mb-3 font-size-22">Social Media Marketing</h4>
                             <p class="text-muted mb-0">We build exclusive and eye-catchy creatives for Social Media posts to make your product stand out.</p>
@@ -124,7 +121,7 @@
                     <div class="service-box text-center px-4 py-5 position-relative mb-4">
                         <div class="service-box-content p-4">
                             <div class="icon-mono service-icon avatar-md mx-auto mb-4">
-                                <i class="" data-feather="layers"></i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-layers"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
                             </div>
                             <h4 class="mb-3 font-size-22">Search Engine Optimization</h4>
                             <p class="text-muted mb-0">Rank your website on top across all major Search Engines with our unmatched SEO and SEM services.</p>
@@ -136,7 +133,7 @@
                     <div class="service-box text-center px-4 py-5 position-relative mb-4">
                         <div class="service-box-content p-4">
                             <div class="icon-mono service-icon avatar-md mx-auto mb-4">
-                                <i class="" data-feather="server"></i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-server"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
                             </div>
                             <h4 class="mb-3 font-size-22">Website Development</h4>
                             <p class="text-muted mb-0">Website to a product is like place on podium to a sprinter. With us on your side your website will sprint ahead of all to reach the pole position.</p>
@@ -144,11 +141,11 @@
                     </div>
                 </div>
                 <!-- end col -->
-                           <div class="col-lg-4">
+                <div class="col-lg-4">
                     <div class="service-box text-center px-4 py-5 position-relative mb-4">
                         <div class="service-box-content p-4">
                             <div class="icon-mono service-icon avatar-md mx-auto mb-4">
-                                <i class="" data-feather="bar-chart"></i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bar-chart"><line x1="12" y1="20" x2="12" y2="10"></line><line x1="18" y1="20" x2="18" y2="4"></line><line x1="6" y1="20" x2="6" y2="16"></line></svg>
                             </div>
                             <h4 class="mb-3 font-size-22">Business Intelligence</h4>
                             <p class="text-muted mb-0">Our Business intelligence (business analytics, data mining, data visualization and data tools) solutions help organizations to make more data-driven decisions. </p>
@@ -160,7 +157,7 @@
                     <div class="service-box text-center px-4 py-5 position-relative mb-4">
                         <div class="service-box-content p-4">
                             <div class="icon-mono service-icon avatar-md mx-auto mb-4">
-                                <i class="" data-feather="mail"></i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
                             </div>
                             <h4 class="mb-3 font-size-22">Email Marketing</h4>
                             <p class="text-muted mb-0">Attract more Leads & Subscribers by sending them emails as per your Campaign Goal. </p>
@@ -172,7 +169,7 @@
                     <div class="service-box text-center px-4 py-5 position-relative mb-4">
                         <div class="service-box-content p-4">
                             <div class="icon-mono service-icon avatar-md mx-auto mb-4">
-                                <i class="" data-feather="globe"></i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-globe"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
                             </div>
                             <h4 class="mb-3 font-size-22">Corporate Branding</h4>
                             <p class="text-muted mb-0">Build and enhance awareness of your brand with exclusive
@@ -183,6 +180,9 @@
                 <!-- end col -->
             </div>
             <!-- end row -->
+            <div class="text-center">
+                <a href="#" class="btn btn-primary">Read More</a>
+            </div>
         </div>
         <!-- end container -->
 
@@ -204,7 +204,7 @@
                     <h2 class="mb-4">Perfect Solution For Small Businesses</h2>
                     <p class="text-muted mb-5">We can help you grow your business with our result oriented solutions
                         that won't break your budget.</p>
-                    <a href="javascript: void(0);" class="btn btn-primary">Find out more <i class="icon-xs ms-2"
+                    <a href="javascript: void(0);" class="btn btn-primary d-none">Find out more <i class="icon-xs ms-2"
                             data-feather="arrow-right"></i></a>
                 </div>
                 <div class="col-md-6 ms-md-auto order-1 order-md-2">
@@ -229,7 +229,7 @@
                 <div class="col-md-5 ms-md-auto">
                     <h2 class="mb-4">Solutions As Per Business Need</h2>
                     <p class="text-muted mb-5">Our subject matter experts will guide you to understand what is best for your business and hence, provide custom tailored solutions as per your business need. </p>
-                    <a href="javascript: void(0);" class="btn btn-primary">Find out more <i class="icon-xs ms-2"
+                    <a href="javascript: void(0);" class="btn btn-primary d-none">Find out more <i class="icon-xs ms-2"
                             data-feather="arrow-right"></i></a>
                 </div>
             </div>
@@ -242,7 +242,7 @@
 
 
 <!-- Clients Speak -->
-<section class="section bg-center w-100 bg-light" id="team" style="background-image: url(images/cta-bg.png);">
+<section class="section d-none bg-center w-100 bg-light" id="team" style="background-image: url(images/cta-bg.png);">
     <div class="container">
         <div class="row justify-content-center mb-4">
             <div class="col-lg-7 text-center">
@@ -450,71 +450,8 @@
     <!-- Contact us end -->
 
     <!-- Footer Start -->
-    <footer class="footer" style="background-image: url(images/footer-bg.png);">
+    <footer class="footer">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="mb-4">
-                        <a href="index-1.html"><img src="images/logo-light.png" alt="" class="" height="30" /></a>
-                        <p class="text-white-50 my-4">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                            blanditiis praesentium voluptatum deleniti.</p>
-                    </div>
-                </div>
-                <!-- end col -->
-
-                <div class="col-lg-7 ms-lg-auto">
-                    <div class="row">
-                        <div class="col-lg-3 col-6">
-                            <div class="mt-4 mt-lg-0">
-                                <h4 class="text-white font-size-18 mb-3">Customer</h4>
-                                <ul class="list-unstyled footer-sub-menu">
-                                    <li><a href="javascript: void(0);" class="footer-link">Works</a></li>
-                                    <li><a href="javascript: void(0);" class="footer-link">Strategy</a></li>
-                                    <li><a href="javascript: void(0);" class="footer-link">Releases</a></li>
-                                    <li><a href="javascript: void(0);" class="footer-link">Press</a></li>
-                                    <li><a href="javascript: void(0);" class="footer-link">Mission</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-6">
-                            <div class="mt-4 mt-lg-0">
-                                <h4 class="text-white font-size-18 mb-3">Product</h4>
-                                <ul class="list-unstyled footer-sub-menu">
-                                    <li><a href="javascript: void(0);" class="footer-link">Trending</a></li>
-                                    <li><a href="javascript: void(0);" class="footer-link">Popular</a></li>
-                                    <li><a href="javascript: void(0);" class="footer-link">Customers</a></li>
-                                    <li><a href="javascript: void(0);" class="footer-link">Features</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-6">
-                            <div class="mt-4 mt-lg-0">
-                                <h4 class="text-white font-size-18 mb-3">Information</h4>
-                                <ul class="list-unstyled footer-sub-menu">
-                                    <li><a href="javascript: void(0);" class="footer-link">Developers</a></li>
-                                    <li><a href="javascript: void(0);" class="footer-link">Support</a></li>
-                                    <li><a href="javascript: void(0);" class="footer-link">Customer Service</a></li>
-                                    <li><a href="javascript: void(0);" class="footer-link">Get Started</a></li>
-                                    <li><a href="javascript: void(0);" class="footer-link">Guide</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-6">
-                            <div class="mt-4 mt-lg-0">
-                                <h4 class="text-white font-size-18 mb-3">Support</h4>
-                                <ul class="list-unstyled footer-sub-menu">
-                                    <li><a href="javascript: void(0);" class="footer-link">FAQ</a></li>
-                                    <li><a href="javascript: void(0);" class="footer-link">Contact</a></li>
-                                    <li><a href="javascript: void(0);" class="footer-link">Disscusion</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end col -->
-            </div>
-            <!-- end row -->
-
             <div class="row">
                 <div class="col-lg-12">
                     <div class="text-center mt-5">
@@ -535,10 +472,6 @@
 
     <!-- javascript -->
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/smooth-scroll.polyfills.min.js"></script>
-
-    <script src="https://unpkg.com/feather-icons"></script>
-
     <!-- App Js -->
     <script src="js/app.js"></script>
 </body>
